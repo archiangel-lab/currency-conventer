@@ -1,0 +1,61 @@
+.form__label {
+    width: 100%;
+    max-width: 150px;
+    display: inline-block;
+    
+}
+
+.form__fieldset {
+    border: 2px solid #ccc;
+    padding: 30px 20px 10px 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+
+.form__field {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.form__legend {
+    max-width: 100%;
+    text-align: center;
+    background-color: rgb(56, 91, 100);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.form__button {
+    width: 120px;
+    height: 30px;
+    background-color: rgb(56, 91, 100);
+    color: white;
+    padding: auto;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 2px 2px 8px #ccc;
+}
+
+.form__button:hover {
+    background-color: rgb(203, 78, 64);
+}
+
+.form__button:active {
+    background-color: rgb(56, 91, 100);
+}
+
+.form__result {
+    text-align: center;
+    line-height: 1.8;
+}
+
+.form__result--largeFontResult {
+    font-size: large;
+    border: 2px solid rgb(255, 255, 255);
+}

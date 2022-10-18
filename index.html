@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator walutowy</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+
+    <script defer src="js/script.js">
+    </script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <p>
+            <i>Pola wymagane oznaczone są *.</i>
+        </p>
+
+
+
+        <form class="form js-form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Kalkulator walutowy</legend>
+
+                <label>
+                    <span class="form__label">
+                        Wpisz kwotę*:
+                    </span>
+                    <input placeholder="Kwota w zł" class="form__field js-ammount" type="number" name="ammount"
+                        step="0.01" min="0" required>
+                </label>
+                <p>
+                    <label class="form_label">
+
+                        Wybierz walutę:
+                        <select class="form__field js-currency" name="currency">
+                            <option value="EUR">Euro (EUR)</option>
+                            <option value="USD">Dolar amerykański (USD)</option>
+                            <option value="CHF">Frank szwajcarski (CHF)</option>
+                            <option value="GBP">Funt szterling (GBP)</option>
+                            <option value="CZK">Korona czeska (CZK)</option>
+                            <option value="HRK">Kuna chorwacka (HRK)</option>
+                            <option value="JPY">Jen japoński (JPY)</option>
+                        </select>
+                    </label>
+                </p>
+                <p class="form__result">
+                    Kwota po przewalutowaniu: <br><strong class="form__result--largeFontResult js-result"></strong>
+                </p>
+
+            </fieldset>
+            <p>
+                <button class="form__button">Przelicz!</button>
+            </p>
+        </form>
+    </div>
+
+    <footer class="footer">Kurs na dzień: 16.10.2022 (Money.pl)</footer>
+
+</body>
+
+</html>
