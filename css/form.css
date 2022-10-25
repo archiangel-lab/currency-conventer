@@ -2,12 +2,12 @@
     width: 100%;
     max-width: 150px;
     display: inline-block;
-    
+
 }
 
 .form__fieldset {
     border: 2px solid rgb(6, 68, 119);
-    padding: 30px 20px 10px 20px;
+    padding: 30px 20px 20px 20px;
     border-radius: 5px;
     margin: 20px 0;
 }
@@ -43,11 +43,11 @@
 }
 
 .form__button:hover {
-    background-color: rgb(203, 78, 64);
+    background-color: rgb(31, 31, 31);
 }
 
 .form__button:active {
-    background-color: rgb(56, 91, 100);
+    background-color: rgb(6, 68, 119);
 }
 
 .form__result {
@@ -57,5 +57,5 @@
 
 .form__result--largeFontResult {
     font-size: large;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255, 0);
 }
