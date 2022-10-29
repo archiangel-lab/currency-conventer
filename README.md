@@ -5,11 +5,14 @@
 https://archiangel-lab.github.io/currency-conventer/
 
 ## How it works:
-[![currency-readme.gif](https://i.postimg.cc/LXHGMK6v/currency-readme.gif)](https://postimg.cc/gwTgv7h6)
+[![currency-readme.gif](https://i.postimg.cc/sgw7fBkx/currency-readme.gif)](https://postimg.cc/ZWvCVqKz)
 
 
 ## Destripction:
 simple currency calculator to convert PLN to other currencies
+- enter the amount (PLN)
+- select a currency
+- click recalculate button
 
 ## 👩‍💻Technologies:
 - HTML
