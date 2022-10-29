@@ -1,7 +1,9 @@
 .footer {
     max-width: 500px;
     text-align: center;
-    margin: 20px auto;
+    margin: 5px auto;
     font-size: small;
     color: aqua;
+    flex-direction: column;
+    
 }
